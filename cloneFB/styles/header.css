@@ -1,3 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    color: #ffffff;
+
+    display: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 100;
+
+    position: relative;
+
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.fb-logo {
+    width: 40px;
+    height: 40px;
+}
+
 .middle-header {
     display: flex;
     justify-content: space-between;
@@ -8,4 +37,22 @@
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+.middle-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-header {
+  flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.right-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
