@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #242526;
+    color: #ffffff;
+
+   
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 100;
+
+    
+
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-header input{
+    border-radius: 120px;
+    padding: 8px;
+    width: 300px;
+    font-weight: 700;
+}
+.fb-logo {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.middle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.middle-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-header {
+  flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.right-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+ .pro {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
