@@ -1,0 +1,43 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a; /* Dark background for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Logo Container */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: default;
+}
+
+/* Symbol </> */
+.logo-symbol {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8; /* Sky blue */
+}
+
+/* Text beside symbol */
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8fafc; /* Almost white */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
