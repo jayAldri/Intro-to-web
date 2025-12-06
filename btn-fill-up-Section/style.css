@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+/* Button */
+#openFormBtn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Hidden form */
+.form-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  width: 280px;
+  display: none; /* hide */
+  animation: slideDown 0.3s ease forwards;
+}
+
+/* Form inputs */
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 8px;
+  background: #28a745;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+/* Animation */
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
